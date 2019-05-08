@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%
+% add a figure
+
+% Figure X.  Title 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width= AA \linewidth] {figure.pdf}
+  %  \includegraphics[width= AA \linewidth,
+      trim={<left> <lower> <right> <upper>}] {figure.pdf}
+  \caption{Figure caption}
+  \label{Figure:SectionX}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% add a table
+
+% Table X. title
+\begin{table}[H]
+  \renewcommand{\arraystretch}{1.5}
+  \centering
+  \footnotesize
+  \caption{table title}
+  \label{Table:SectionX}  
+    \begin{tabular}{p{3cm}p{3.8cm}p{7cm}}\hline\hline
+      \textbf{AA} & \textbf{AA} & \textbf{AA}\\[0.5ex] \hline
+         Cell1  &  Cell2  & Cell3 \\
+         Cell1  &  Cell2  & Cell3 \\
+         Cell1  &  Cell2  & Cell3
+   \\[0.5ex]\hline\hline
+  \end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% add a longtable
