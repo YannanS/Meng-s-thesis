@@ -1,4 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%
+% chapter intro
+
+\chapter{Chapter title}
+  \rule[1ex]{\textwidth}{.5pt}\\
+  \textit{This is chapter introduction}\\
+   \rule[1ex]{\textwidth}{.5pt}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
 % add a figure
 
 % Figure X.  Title 
